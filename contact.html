@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
 
   <title>Koan Loc - Contact</title>
 </head>
@@ -16,10 +16,10 @@
     <a class="navbar-brand">
       <h1><strong>Koan Loc</strong></h1>
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> <!-- these commands help collapse -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"> <!-- these commands help collapse -->
       <span class="navbar-toggler-icon"></span> <!-- these commands help collapse -->
     </button>
-    <div class="collapse navbar-collapse ml-auto justify-content-end" id="collapsibleNavbar">
+    <div class="collapse navbar-collapse ml-auto justify-content-end" id="navbarNavAltMarkup">
       <a class="nav-link nav-item text-secondary" href="index.html">Home</a>
       <a class="nav-link nav-item text-secondary" href="portfolio.html">Portfolio</a>
       <a class="nav-link nav-item text-light" href="contact.html">Contact</a> <!-- active did not stand out, edited text-color -->
@@ -45,20 +45,25 @@
   <!-- form -->
 
   <form>
-    <div class="form-group">
-      <label for="exampleInputEmail1">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    <div class="col-sm-12 col-md-6 col-lg-4 mx-auto">    
+      <div class="form-group text-white">
+        <label for="FirstName">First Name</label>
+        <input type="text" class="form-control" id="firstName" placeholder="First Name">
+      </div>
+      <div class="form-group text-white">
+        <label for="LastName">Last Name</label>
+        <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+      </div>
+      <div class="form-group text-white">
+        <label for="EmailAddress">Email Address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+      </div>
+      <div class="form-group text-white"> <!-- hard to see text but keeping with white text theme amoung pages, works for mobile -->
+        <label for="LeaveAMessage">Leave a Message</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Leave a Message</textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Send</button>
     </div>
-    <div class="form-group">
-      <label for="exampleInputPassword1">Password</label>
-      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-    </div>
-    <div class="form-check">
-      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-      <label class="form-check-label" for="exampleCheck1">Check me out</label>
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
   </form>
 
   <!-- footer -->
