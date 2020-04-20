@@ -1,0 +1,33 @@
+body {
+    background-image: url('./images/DSC_0078.JPG'); /* cannot add alt="osaka skyline day"*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+
+    @media only screen and (max-width: 576px) { /* when reduced webpage, changes to this background image */
+      body {
+        background-image: url('./images/DSC_0010_reduced.JPG'); /* cannot add alt="osaka skyline night bottom right */
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+      }
+    }
+
+h2 {
+  color:white;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 500;
+}
+h3 {
+  color:white;
+  font-weight: 500;
+  text-align: center;
+}
+p {
+    font-size: 20px;
+    color: white;
+} 
