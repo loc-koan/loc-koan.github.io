@@ -40,4 +40,10 @@ p {
 }
 .social {
   color: white;
+  align-items: center;
+  margin: 10px;
 }
+/* ul {
+  list-style-type: none;
+  display: inline;
+} */
